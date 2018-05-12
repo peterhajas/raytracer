@@ -12,6 +12,7 @@
 		4FA3114620A77D50005A311D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114520A77D50005A311D /* Plane.swift */; };
 		4FA3114820A7800E005A311D /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114720A7800E005A311D /* Ray.swift */; };
 		4FA3114A20A788C1005A311D /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114920A788C1005A311D /* Vector.swift */; };
+		4FA3114C20A79173005A311D /* 2DExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114B20A79173005A311D /* 2DExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		4FA3114520A77D50005A311D /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		4FA3114720A7800E005A311D /* Ray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ray.swift; sourceTree = "<group>"; };
 		4FA3114920A788C1005A311D /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		4FA3114B20A79173005A311D /* 2DExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2DExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				4FA3114520A77D50005A311D /* Plane.swift */,
 				4FA3114720A7800E005A311D /* Ray.swift */,
 				4FA3114920A788C1005A311D /* Vector.swift */,
+				4FA3114B20A79173005A311D /* 2DExample.swift */,
 			);
 			path = raytracer;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				4FA3114420A77CEA005A311D /* Point.swift in Sources */,
 				4FA3114A20A788C1005A311D /* Vector.swift in Sources */,
 				4FA3114620A77D50005A311D /* Plane.swift in Sources */,
+				4FA3114C20A79173005A311D /* 2DExample.swift in Sources */,
 				4FA3113D20A77B0D005A311D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

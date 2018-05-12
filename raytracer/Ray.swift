@@ -11,7 +11,7 @@ struct Ray2D {
     let pointAtT1: Point2D
     
     func pointAtT(_ t: Double) -> Point2D {
-        return pointBetweenPoints(start: pointAtT0, end: pointAtT1, fraction: t)
+        return Point2D.valueBetween(start: pointAtT0, end: pointAtT1, fraction: t)
     }
     
     var lineRepresentation: Plane2D {

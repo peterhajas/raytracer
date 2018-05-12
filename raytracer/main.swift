@@ -36,7 +36,7 @@ for i in 0..<Int(imagePlanePixelDimension) {
     let fraction = Double(i) / imagePlanePixelDimension
     
     // Find the point on the plane for this fraction
-    let imagePlanePoint = pointBetweenPoints(start: imagePlane.startPoint, end: imagePlane.endPoint, fraction: fraction)
+    let imagePlanePoint = Point2D.valueBetween(start: imagePlane.startPoint, end: imagePlane.endPoint, fraction: fraction)
     
     // We're starting at the camera, and moving towards this point. Make our ray
     let ray = Ray2D(pointAtT0: camera, pointAtT1: imagePlanePoint)

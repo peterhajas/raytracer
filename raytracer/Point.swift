@@ -6,6 +6,19 @@
 //  Copyright © 2018 Peter Hajas. All rights reserved.
 //
 
+// A handy protocol for tweening
+protocol Interpolatable {
+    static func valueBetween(start: Self, end: Self, fraction: Double) -> Self
+}
+
+extension Double : Interpolatable {
+    static func valueBetween(start: Double, end: Double, fraction: Double) -> Double {
+        let range = end - start
+        let offset = range * fraction
+        return start + offset
+    }
+}
+
 struct Point2D : Equatable {
     let x: Double
     let y: Double
@@ -25,12 +38,10 @@ struct Point2D : Equatable {
     }
 }
 
-func pointBetweenPoints(start: Point2D, end: Point2D, fraction: Double) -> Point2D {
-    let xInterval = end.x - start.x
-    let yInterval = end.y - start.y
-    
-    let xStep = fraction * xInterval
-    let yStep = fraction * yInterval
-    
-    return Point2D(x: start.x + xStep, y: start.y + yStep)
+extension Point2D : Interpolatable {
+    static func valueBetween(start: Point2D, end: Point2D, fraction: Double) -> Point2D {
+        let x = Double.valueBetween(start: start.x, end: end.x, fraction: fraction)
+        let y = Double.valueBetween(start: start.y, end: end.y, fraction: fraction)
+        return Point2D(x: x, y: y)
+    }
 }

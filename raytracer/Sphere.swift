@@ -15,8 +15,6 @@ struct Sphere {
 
 extension Sphere : RayIntersecting {
     func intersectionPointWithRay(_ ray: Ray3D) -> Vector3D? {
-        let vectorToSphereCenter = center - ray.origin
-        
         // Compute ray from ray origin to sphere center
         let rayToSphereCenter = Ray3D(origin: ray.origin, target: center)
         

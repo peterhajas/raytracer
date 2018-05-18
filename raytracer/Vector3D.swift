@@ -33,7 +33,7 @@ struct Vector3D {
     }
     
     func dot(_ rhs: Vector3D) -> Double {
-        return a * rhs.a + b + rhs.b + c + rhs.c
+        return a * rhs.a + b * rhs.b + c * rhs.c
     }
     static func+(lhs: Vector3D, rhs: Vector3D) -> Vector3D {
         return Vector3D(a: lhs.a+rhs.a, b: lhs.b+rhs.b, c: lhs.c+rhs.c)

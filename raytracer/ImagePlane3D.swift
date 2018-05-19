@@ -6,7 +6,7 @@
 //  Copyright © 2018 Peter Hajas. All rights reserved.
 //
 
-struct Plane3D {
+struct ImagePlane3D {
     let center: Vector3D
     let width: Double
     let height: Double

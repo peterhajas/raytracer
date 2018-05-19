@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F6CD1F520AFDFA800D0E388 /* Plane3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F420AFDFA800D0E388 /* Plane3D.swift */; };
+		4F6CD1F520AFDFA800D0E388 /* ImagePlane3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F420AFDFA800D0E388 /* ImagePlane3D.swift */; };
 		4F6CD1F720AFE0EB00D0E388 /* World3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F620AFE0EB00D0E388 /* World3D.swift */; };
 		4F6CD1F920AFE12000D0E388 /* Tracer3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F820AFE12000D0E388 /* Tracer3D.swift */; };
 		4FA3113D20A77B0D005A311D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3113C20A77B0D005A311D /* main.swift */; };
@@ -37,7 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F6CD1F420AFDFA800D0E388 /* Plane3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane3D.swift; sourceTree = "<group>"; };
+		4F6CD1F420AFDFA800D0E388 /* ImagePlane3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlane3D.swift; sourceTree = "<group>"; };
 		4F6CD1F620AFE0EB00D0E388 /* World3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World3D.swift; sourceTree = "<group>"; };
 		4F6CD1F820AFE12000D0E388 /* Tracer3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracer3D.swift; sourceTree = "<group>"; };
 		4FA3113920A77B0D005A311D /* raytracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raytracer; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +92,7 @@
 				4FA3115620A7945B005A311D /* Ray3D.swift */,
 				4FA3115820A7949F005A311D /* RayIntersecting.swift */,
 				4FA3115420A79433005A311D /* Sphere.swift */,
-				4F6CD1F420AFDFA800D0E388 /* Plane3D.swift */,
+				4F6CD1F420AFDFA800D0E388 /* ImagePlane3D.swift */,
 				4F6CD1F620AFE0EB00D0E388 /* World3D.swift */,
 				4F6CD1F820AFE12000D0E388 /* Tracer3D.swift */,
 				4FA3115320A79424005A311D /* 2D Stuff */,
@@ -176,7 +176,7 @@
 				4FA3115920A7949F005A311D /* RayIntersecting.swift in Sources */,
 				4FA3114420A77CEA005A311D /* Point.swift in Sources */,
 				4F6CD1F720AFE0EB00D0E388 /* World3D.swift in Sources */,
-				4F6CD1F520AFDFA800D0E388 /* Plane3D.swift in Sources */,
+				4F6CD1F520AFDFA800D0E388 /* ImagePlane3D.swift in Sources */,
 				4FA3114A20A788C1005A311D /* Vector.swift in Sources */,
 				4FA3115B20A797B6005A311D /* Vector3D.swift in Sources */,
 				4FA3114620A77D50005A311D /* Plane.swift in Sources */,

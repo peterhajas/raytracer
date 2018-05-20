@@ -34,12 +34,12 @@ func imageFromWorld(_ world: World, size: CGSize) -> CGImage {
             // Find the point on the plane that this ray is pointing to
             let locationXInPlaneCoordianteSpace = percentageIntoX * world.imagePlane.width
             let locationYInPlaneCoordianteSpace = percentageIntoY * world.imagePlane.height
-            let pointOnPlane = Vector3D(a: imagePlane.origin.a + locationXInPlaneCoordianteSpace,
-                                        b: imagePlane.origin.b + locationYInPlaneCoordianteSpace,
-                                        c: imagePlane.origin.c)
+            let pointOnPlane = Vector3D(a: world.imagePlane.origin.a + locationXInPlaneCoordianteSpace,
+                                        b: world.imagePlane.origin.b + locationYInPlaneCoordianteSpace,
+                                        c: world.imagePlane.origin.c)
             
             // Cast a ray from the camera to the point on the plane
-            let ray = Ray3D(origin: camera, target: pointOnPlane)
+            let ray = Ray3D(origin: world.camera, target: pointOnPlane)
             for object in world.objects {
                 let objectsOtherThanThisObject = world.objects
                 if let intersectionPoint = object.intersectionPointWithRay(ray) {

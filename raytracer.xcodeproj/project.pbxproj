@@ -11,6 +11,20 @@
 		4F6CD1F720AFE0EB00D0E388 /* World3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F620AFE0EB00D0E388 /* World3D.swift */; };
 		4F6CD1F920AFE12000D0E388 /* Tracer3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F820AFE12000D0E388 /* Tracer3D.swift */; };
 		4F6CD1FB20B08CE300D0E388 /* Plane3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1FA20B08CE300D0E388 /* Plane3D.swift */; };
+		4F6CD20320B13B7500D0E388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD20220B13B7500D0E388 /* AppDelegate.swift */; };
+		4F6CD20520B13B7700D0E388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6CD20420B13B7700D0E388 /* Assets.xcassets */; };
+		4F6CD20820B13B7700D0E388 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F6CD20620B13B7700D0E388 /* MainMenu.xib */; };
+		4F6CD20F20B13BA100D0E388 /* RaytracerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD20E20B13BA100D0E388 /* RaytracerView.swift */; };
+		4F6CD21020B13BC000D0E388 /* DistanceMeasurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114F20A79223005A311D /* DistanceMeasurable.swift */; };
+		4F6CD21120B13BC000D0E388 /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114D20A791C0005A311D /* Interpolatable.swift */; };
+		4F6CD21220B13BC000D0E388 /* Vector3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115A20A797B6005A311D /* Vector3D.swift */; };
+		4F6CD21320B13BC000D0E388 /* Ray3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115620A7945B005A311D /* Ray3D.swift */; };
+		4F6CD21420B13BC000D0E388 /* Object3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115820A7949F005A311D /* Object3D.swift */; };
+		4F6CD21520B13BC000D0E388 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115420A79433005A311D /* Sphere.swift */; };
+		4F6CD21620B13BC000D0E388 /* ImagePlane3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F420AFDFA800D0E388 /* ImagePlane3D.swift */; };
+		4F6CD21720B13BC000D0E388 /* Plane3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1FA20B08CE300D0E388 /* Plane3D.swift */; };
+		4F6CD21820B13BC000D0E388 /* World3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F620AFE0EB00D0E388 /* World3D.swift */; };
+		4F6CD21920B13BC000D0E388 /* Tracer3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD1F820AFE12000D0E388 /* Tracer3D.swift */; };
 		4FA3113D20A77B0D005A311D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3113C20A77B0D005A311D /* main.swift */; };
 		4FA3114420A77CEA005A311D /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114320A77CEA005A311D /* Point.swift */; };
 		4FA3114620A77D50005A311D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114520A77D50005A311D /* Plane.swift */; };
@@ -42,6 +56,13 @@
 		4F6CD1F620AFE0EB00D0E388 /* World3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World3D.swift; sourceTree = "<group>"; };
 		4F6CD1F820AFE12000D0E388 /* Tracer3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracer3D.swift; sourceTree = "<group>"; };
 		4F6CD1FA20B08CE300D0E388 /* Plane3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane3D.swift; sourceTree = "<group>"; };
+		4F6CD20020B13B7500D0E388 /* raytracer_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raytracer_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6CD20220B13B7500D0E388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F6CD20420B13B7700D0E388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F6CD20720B13B7700D0E388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F6CD20920B13B7700D0E388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6CD20A20B13B7700D0E388 /* raytracer_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = raytracer_app.entitlements; sourceTree = "<group>"; };
+		4F6CD20E20B13BA100D0E388 /* RaytracerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaytracerView.swift; sourceTree = "<group>"; };
 		4FA3113920A77B0D005A311D /* raytracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raytracer; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA3113C20A77B0D005A311D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4FA3114320A77CEA005A311D /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
@@ -58,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4F6CD1FD20B13B7500D0E388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FA3113620A77B0D005A311D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,10 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F6CD20120B13B7500D0E388 /* raytracer_app */ = {
+			isa = PBXGroup;
+			children = (
+				4F6CD20220B13B7500D0E388 /* AppDelegate.swift */,
+				4F6CD20E20B13BA100D0E388 /* RaytracerView.swift */,
+				4F6CD20420B13B7700D0E388 /* Assets.xcassets */,
+				4F6CD20620B13B7700D0E388 /* MainMenu.xib */,
+				4F6CD20920B13B7700D0E388 /* Info.plist */,
+				4F6CD20A20B13B7700D0E388 /* raytracer_app.entitlements */,
+			);
+			path = raytracer_app;
+			sourceTree = "<group>";
+		};
 		4FA3113020A77B0D005A311D = {
 			isa = PBXGroup;
 			children = (
 				4FA3113B20A77B0D005A311D /* raytracer */,
+				4F6CD20120B13B7500D0E388 /* raytracer_app */,
 				4FA3113A20A77B0D005A311D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				4FA3113920A77B0D005A311D /* raytracer */,
+				4F6CD20020B13B7500D0E388 /* raytracer_app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +161,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4F6CD1FF20B13B7500D0E388 /* raytracer_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F6CD20B20B13B7700D0E388 /* Build configuration list for PBXNativeTarget "raytracer_app" */;
+			buildPhases = (
+				4F6CD1FC20B13B7500D0E388 /* Sources */,
+				4F6CD1FD20B13B7500D0E388 /* Frameworks */,
+				4F6CD1FE20B13B7500D0E388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = raytracer_app;
+			productName = raytracer_app;
+			productReference = 4F6CD20020B13B7500D0E388 /* raytracer_app.app */;
+			productType = "com.apple.product-type.application";
+		};
 		4FA3113820A77B0D005A311D /* raytracer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FA3114020A77B0D005A311D /* Build configuration list for PBXNativeTarget "raytracer" */;
@@ -145,6 +205,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Peter Hajas";
 				TargetAttributes = {
+					4F6CD1FF20B13B7500D0E388 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
 					4FA3113820A77B0D005A311D = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -156,6 +219,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4FA3113020A77B0D005A311D;
 			productRefGroup = 4FA3113A20A77B0D005A311D /* Products */;
@@ -163,11 +227,43 @@
 			projectRoot = "";
 			targets = (
 				4FA3113820A77B0D005A311D /* raytracer */,
+				4F6CD1FF20B13B7500D0E388 /* raytracer_app */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		4F6CD1FE20B13B7500D0E388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6CD20520B13B7700D0E388 /* Assets.xcassets in Resources */,
+				4F6CD20820B13B7700D0E388 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		4F6CD1FC20B13B7500D0E388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6CD20F20B13BA100D0E388 /* RaytracerView.swift in Sources */,
+				4F6CD21120B13BC000D0E388 /* Interpolatable.swift in Sources */,
+				4F6CD21620B13BC000D0E388 /* ImagePlane3D.swift in Sources */,
+				4F6CD20320B13B7500D0E388 /* AppDelegate.swift in Sources */,
+				4F6CD21220B13BC000D0E388 /* Vector3D.swift in Sources */,
+				4F6CD21020B13BC000D0E388 /* DistanceMeasurable.swift in Sources */,
+				4F6CD21420B13BC000D0E388 /* Object3D.swift in Sources */,
+				4F6CD21520B13BC000D0E388 /* Sphere.swift in Sources */,
+				4F6CD21320B13BC000D0E388 /* Ray3D.swift in Sources */,
+				4F6CD21920B13BC000D0E388 /* Tracer3D.swift in Sources */,
+				4F6CD21720B13BC000D0E388 /* Plane3D.swift in Sources */,
+				4F6CD21820B13BC000D0E388 /* World3D.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FA3113520A77B0D005A311D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,7 +289,54 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		4F6CD20620B13B7700D0E388 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F6CD20720B13B7700D0E388 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		4F6CD20C20B13B7700D0E388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = raytracer_app/raytracer_app.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = raytracer_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "peterhajas.raytracer-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4F6CD20D20B13B7700D0E388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = raytracer_app/raytracer_app.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = raytracer_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "peterhajas.raytracer-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		4FA3113E20A77B0D005A311D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,6 +471,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4F6CD20B20B13B7700D0E388 /* Build configuration list for PBXNativeTarget "raytracer_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F6CD20C20B13B7700D0E388 /* Debug */,
+				4F6CD20D20B13B7700D0E388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4FA3113420A77B0D005A311D /* Build configuration list for PBXProject "raytracer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

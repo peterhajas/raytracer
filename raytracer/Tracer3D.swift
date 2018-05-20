@@ -42,7 +42,7 @@ func imageFromWorld(_ world: World, size: CGSize) -> CGImage {
             let ray = Ray3D(origin: camera, target: pointOnPlane)
             for object in world.objects {
                 if let intersectionPoint = object.intersectionPointWithRay(ray) {
-                    let intersectionNormal = (intersectionPoint - object.center).unitVector
+                    let intersectionNormal = Ray3D(origin: object.center, target: intersectionPoint).direction.unitVector
                     for light in world.lights {
                         let lighting = intersectionNormal.dot((light - intersectionPoint).unitVector)
                         

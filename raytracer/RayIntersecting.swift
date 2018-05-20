@@ -9,4 +9,6 @@
 protocol RayIntersecting {
     // Returns nil if it does not intersect
     func intersectionPointWithRay(_ ray: Ray3D) -> Vector3D?
+    
+    var center: Vector3D { get }
 }

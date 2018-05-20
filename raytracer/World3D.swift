@@ -11,4 +11,5 @@ struct World {
     let imagePlane: ImagePlane3D
     
     let objects: [RayIntersecting]
+    let lights: [Vector3D]
 }

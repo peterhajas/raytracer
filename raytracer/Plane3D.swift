@@ -7,7 +7,7 @@
 //
 
 struct Plane3D {
-    var origin: Vector3D
+    var center: Vector3D
     var normal: Vector3D
 }
 

@@ -72,5 +72,5 @@ extension Sphere : RayIntersecting {
         let intersection2 = ray.pointTravelingDistance(distanceToIntersection2)
         
         return intersection2
-    }
+    }    
 }

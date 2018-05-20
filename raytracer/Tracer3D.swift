@@ -21,7 +21,7 @@ func imageFromWorld(_ world: World, size: CGSize) -> CGImage {
                                   bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue)!
     let bitmapPointer = bitmapContext.data!.assumingMemoryBound(to: UInt8.self)
     
-    for x in 0..<Int(size.width) {
+    DispatchQueue.concurrentPerform(iterations: Int(size.width)) { (x) in
         for y in 0..<Int(size.height) {
             var red = UInt8(255)
             var green = UInt8(255)

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Vector3D {
+struct Vector3D : Equatable {
     let a: Double
     let b: Double
     let c: Double

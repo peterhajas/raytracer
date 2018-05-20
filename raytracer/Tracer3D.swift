@@ -41,16 +41,36 @@ func imageFromWorld(_ world: World, size: CGSize) -> CGImage {
             // Cast a ray from the camera to the point on the plane
             let ray = Ray3D(origin: camera, target: pointOnPlane)
             for object in world.objects {
+                let objectsOtherThanThisObject = world.objects
                 if let intersectionPoint = object.intersectionPointWithRay(ray) {
                     let intersectionNormal = Ray3D(origin: object.center, target: intersectionPoint).direction.unitVector
                     for light in world.lights {
-                        let lighting = intersectionNormal.dot((light - intersectionPoint).unitVector)
+                        let rayFromIntersectionToLight = Ray3D(origin: intersectionPoint,
+                                                               target: light)
+                        var shouldApplyLight = true
+                        for otherObject in world.objects {
+                            if otherObject.center == object.center {
+                                continue
+                            }
+                            if let _ = otherObject.intersectionPointWithRay(rayFromIntersectionToLight) {
+                                shouldApplyLight = false
+                                break
+                            }
+                        }
                         
-                        let color = UInt8(clamping: Int(lighting * 255))
+                        let color: UInt8
+                        
+                        if shouldApplyLight {
+                            let lighting = intersectionNormal.dot((light - intersectionPoint).unitVector)
+                            color = UInt8(clamping: Int(lighting * 255))
+                        }
+                        else {
+                            color = UInt8(0)
+                        }
                         
                         red = color
-                        green = 0
-                        blue = 0
+                        green = color/2
+                        blue = color/10
                     }
                 }
                 else {

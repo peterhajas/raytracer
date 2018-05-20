@@ -9,7 +9,7 @@
 import Foundation
 
 let sampleSphere = Sphere(center: Vector3D(a: 100, b: -100, c: 1000), radius: 200)
-let sampleSphere2 = Sphere(center: Vector3D(a: -100, b: 100, c: 1000), radius: 150)
+let sampleSphere2 = Sphere(center: Vector3D(a: -100, b: 100, c: 800), radius: 150)
 let camera = Vector3D(a: 0, b: 0, c: -1000)
 let light = Vector3D(a: -5000, b: 5000, c: -5000)
 

@@ -11,7 +11,7 @@ struct Plane3D {
     var normal: Vector3D
 }
 
-extension Plane3D : RayIntersecting {
+extension Plane3D : Object3D {
     func intersectionPointWithRay(_ ray: Ray3D) -> Vector3D? {
         return nil
     }

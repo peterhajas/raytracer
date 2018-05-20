@@ -21,7 +21,7 @@
 		4FA3115020A79223005A311D /* DistanceMeasurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3114F20A79223005A311D /* DistanceMeasurable.swift */; };
 		4FA3115520A79433005A311D /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115420A79433005A311D /* Sphere.swift */; };
 		4FA3115720A7945B005A311D /* Ray3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115620A7945B005A311D /* Ray3D.swift */; };
-		4FA3115920A7949F005A311D /* RayIntersecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115820A7949F005A311D /* RayIntersecting.swift */; };
+		4FA3115920A7949F005A311D /* Object3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115820A7949F005A311D /* Object3D.swift */; };
 		4FA3115B20A797B6005A311D /* Vector3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3115A20A797B6005A311D /* Vector3D.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 		4FA3114F20A79223005A311D /* DistanceMeasurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMeasurable.swift; sourceTree = "<group>"; };
 		4FA3115420A79433005A311D /* Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
 		4FA3115620A7945B005A311D /* Ray3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ray3D.swift; sourceTree = "<group>"; };
-		4FA3115820A7949F005A311D /* RayIntersecting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayIntersecting.swift; sourceTree = "<group>"; };
+		4FA3115820A7949F005A311D /* Object3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object3D.swift; sourceTree = "<group>"; };
 		4FA3115A20A797B6005A311D /* Vector3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector3D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +92,7 @@
 				4FA3114D20A791C0005A311D /* Interpolatable.swift */,
 				4FA3115A20A797B6005A311D /* Vector3D.swift */,
 				4FA3115620A7945B005A311D /* Ray3D.swift */,
-				4FA3115820A7949F005A311D /* RayIntersecting.swift */,
+				4FA3115820A7949F005A311D /* Object3D.swift */,
 				4FA3115420A79433005A311D /* Sphere.swift */,
 				4F6CD1F420AFDFA800D0E388 /* ImagePlane3D.swift */,
 				4F6CD1FA20B08CE300D0E388 /* Plane3D.swift */,
@@ -176,7 +176,7 @@
 				4FA3114820A7800E005A311D /* Ray.swift in Sources */,
 				4FA3114E20A791C0005A311D /* Interpolatable.swift in Sources */,
 				4F6CD1F920AFE12000D0E388 /* Tracer3D.swift in Sources */,
-				4FA3115920A7949F005A311D /* RayIntersecting.swift in Sources */,
+				4FA3115920A7949F005A311D /* Object3D.swift in Sources */,
 				4FA3114420A77CEA005A311D /* Point.swift in Sources */,
 				4F6CD1F720AFE0EB00D0E388 /* World3D.swift in Sources */,
 				4F6CD1F520AFDFA800D0E388 /* ImagePlane3D.swift in Sources */,

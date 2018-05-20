@@ -13,7 +13,7 @@ struct Sphere {
     let radius: Double
 }
 
-extension Sphere : RayIntersecting {
+extension Sphere : Object3D {
     func intersectionPointWithRay(_ ray: Ray3D) -> Vector3D? {
         // Compute ray from ray origin to sphere center
         let rayToSphereCenter = Ray3D(origin: ray.origin, target: center)

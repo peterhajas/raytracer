@@ -8,7 +8,7 @@
 
 import CoreGraphics
 
-func imageFromWorld(_ world: World, size: CGSize) {
+func imageFromWorld(_ world: World, size: CGSize) -> CGImage {
     // OK, so we're going to start at the camera position and strike towards the
     // image frame a bunch of rays
     
@@ -58,5 +58,5 @@ func imageFromWorld(_ world: World, size: CGSize) {
     }
     
     let cgImage = bitmapContext.makeImage()
-    print(cgImage)
+    return cgImage!
 }
